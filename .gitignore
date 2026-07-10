@@ -1,0 +1,54 @@
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.venv/
+venv/
+
+# Notebooks
+.ipynb_checkpoints/
+
+# Secrets and local config
+.env
+.env.*
+kaggle.json
+*.key
+*.pem
+
+# Competition data and generated corpora
+train.csv
+test.csv
+sample_submission.csv
+*.jsonl
+*.csv
+*.tsv
+*.zip
+*.tar
+*.tar.gz
+*.7z
+
+# Model weights and adapters
+*.safetensors
+*.bin
+*.pt
+*.pth
+*.ckpt
+checkpoint*/
+checkpoints/
+adapter_model*
+submission.zip
+
+# Large local outputs
+wandb/
+runs/
+outputs/
+logs/
+*.log
+
+# OS/editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
