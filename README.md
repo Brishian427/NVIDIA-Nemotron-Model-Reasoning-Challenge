@@ -10,6 +10,12 @@ reasoning behind post-training: how optimization signals mislead, how models
 forget, and how to allocate scarce compute when every training run costs hours
 and every submission is one of a handful.
 
+## Certificate
+
+[Official Kaggle certificate](https://www.kaggle.com/certification/competitions/brishian/nvidia-nemotron-model-reasoning-challenge)
+
+![Kaggle Silver Medal Certificate](assets/kaggle-silver-certificate.png)
+
 ---
 
 ## TL;DR
