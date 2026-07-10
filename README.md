@@ -1,6 +1,8 @@
-# Post-Training a 30B Reasoning Model: A Diagnostic Post-Mortem
+I won a **Silver Medal** for placing 134th/4182 place in [NVIDIA Nemotron Model Reasoning Challenge](https://www.kaggle.com/competitions/nvidia-nemotron-model-reasoning-challenge).
 
-I won a Silver Medal for placing 134th/4182 place in [NVIDIA Nemotron Model Reasoning Challenge](https://www.kaggle.com/competitions/nvidia-nemotron-model-reasoning-challenge).
+![Kaggle Silver Medal Certificate](assets/kaggle-silver-certificate.png)
+
+# Post-Training a 30B Reasoning Model: A Diagnostic Post-Mortem
 
 LoRA fine-tuning of Nemotron-3-Nano-30B-A3B for the NVIDIA Nemotron Model
 Reasoning Challenge (Kaggle).
@@ -9,12 +11,6 @@ This repository is less about the final score and more about the diagnostic
 reasoning behind post-training: how optimization signals mislead, how models
 forget, and how to allocate scarce compute when every training run costs hours
 and every submission is one of a handful.
-
-## Certificate
-
-[Official Kaggle certificate](https://www.kaggle.com/certification/competitions/brishian/nvidia-nemotron-model-reasoning-challenge)
-
-![Kaggle Silver Medal Certificate](assets/kaggle-silver-certificate.png)
 
 ---
 
